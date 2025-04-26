@@ -59,6 +59,7 @@ const quotes = [
   { text: "Local HAMs In Your Area Want To QSO... Badly!" },
   { text: "Static enjoyers HATE him! Destroy peace and quiet with a simple phrase: \"<strong>CQ POTA, CQ POTA</strong>\"" },
   { text: "finna crash out on the radio no cap on god fr yuh yuh" },
+  { text: "What's the Mason Dixon have to do with antennas", author: "- HRCC Discord" },
 ];
 
 exports.handler = async (event, context) => {
