@@ -60,6 +60,11 @@ const quotes = [
   { text: "Static enjoyers HATE him! Destroy peace and quiet with a simple phrase: \"<strong>CQ POTA, CQ POTA</strong>\"" },
   { text: "finna crash out on the radio no cap on god fr yuh yuh" },
   { text: "What's the Mason Dixon have to do with antennas", author: "- HRCC Discord" },
+  { text: "K5GFL just got down bye bye bye bye bye" },
+  { text: "<strong>TIP:</strong> Bro I promise if you just scream into your mic it's a 1000 watt amp bro just trust me on this one" },
+  { text: "<strong>\"FUN\" FACT:</strong> I stayed up until 4 AM trying to get this quote generator working. It probably wasn't worth it." },
+  { text: "[47 CFR § 97.113(a)(4)]IN' THING <em>SUCKS!</em>", author: "- Bill O'Reilly" },
+  { text: "Old Man Yells At FT8" },
 ];
 
 exports.handler = async (event, context) => {
