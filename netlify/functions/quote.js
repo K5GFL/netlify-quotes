@@ -53,6 +53,12 @@ const quotes = [
   { text: "<span style=\"color: #789922\">>.-.. / . / .- / .-. / -. | -.-. / .-- | -... / -.-- | ... / --- / ..- / -. / -..</span><br /><span style=\"color: #789922\">>.... / .- / ...- / . | ..--- | .-. / . / .- / -.. | .. / -</span>" },
   { text: "What're you gonna do, QRM me?", author: "- Man Who Got QRMed" },
   { text: "Aooh...", author: "- A precious soul" },
+  { text: "\"Can we talk about transmitters and antennas?\"<br />\"That's terrible.\"", author: "- 7200 kHz" },
+  { text: "\"[Your signal] sounds like garbage\"<br />\"I love garbage\"", author: "- 7200 kHz" },
+  { text: "\"And your father was a sasquatch.\"", author: "- 7200 kHz" },
+  { text: "Local HAMs In Your Area Want To QSO... Badly!" },
+  { text: "Static enjoyers HATE him! Destroy peace and quiet with a simple phrase: \"<strong>CQ POTA, CQ POTA</strong>\"" },
+  { text: "finna crash out on the radio no cap on god fr yuh yuh" },
 ];
 
 exports.handler = async (event, context) => {

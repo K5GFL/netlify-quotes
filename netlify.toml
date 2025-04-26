@@ -1,0 +1,21 @@
+# netlify.toml
+
+[build]
+  # No build command is needed if you only have functions
+  # or static files not requiring processing.
+  functions = "netlify/functions" # Directory where functions live
+
+# This redirect makes your function accessible at the root URL
+# e.g., your-site.netlify.app/ instead of /.netlify/functions/quote
+[[redirects]]
+  from = "/"
+  to = "/.netlify/functions/quote"
+  status = 200 # Serve the function directly (not a 301/302 redirect)
+
+# Optional: Set headers (Netlify defaults are usually fine for iframes)
+# [[headers]]
+#   for = "/*"
+#   [headers.values]
+#     # Example: If you ever needed explicit iframe permission (usually not needed on Netlify)
+#     # X-Frame-Options = "ALLOW-FROM https://www.qrz.com/"
+#     # Content-Security-Policy = "frame-ancestors https://www.qrz.com;"
