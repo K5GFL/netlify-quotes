@@ -73,6 +73,26 @@ const quotes = [
   { text: "<em>YOU AIN'T FROM MICHIGAN IF YOU NEVER DONE THIS BEFO'</em><br /><strong><em>*blows up amplifier*</em></strong>" },
   { text: "This is the 69th quote of my quote list.<br />Nice" },
   { text: "CALLING CQ AT 3 AM CHALLENGE (DO NOT ATTEMPT!!) <span style=\"color: #d22b2b;\">O <---</span>" },
+  { text: "We really need a POTAholics Anonymous group I'm being serious right now" },
+  { text: "<strong>IT'S RADIOVER</strong>" },
+  { text: "Yeah I like DX<br />De-Generation X, I mean.", author: "- THEM'S THE BREAKS LITTLE MAN, BREAK IT DOWN"},
+  { text: "WE MAKING IT OUT OF THE NOISE FLOOR WITH THIS ONE 🔥🔥🔥" },
+  { text: "[DATA EXPUNGED]" },
+  { text: "YOU WOULDN'T DOWNLOAD A RADIO" },
+  { text: "<strong>FACT:</strong> HOAs are the bane of my existence" },
+  { text: "please whoever is reading this help me k5gfl put me into this quote box and i can't get out" },
+  { text: "\"I've got one of them fancy amplificators\"", author: "- A good man on 80 meters" },
+  { text: "Quagmire: Oh, my ham radio interferes with the radar gun. Talked to a fellow in Paupa New Guinea last night. You should come by sometime and join in the fun!<br /><em>[transition to cutaway gag]</em><br />P2 Operator: Hello?<br />Quagmire: H-hello?<br />P2 Operator: Are you bald?<br />Quagmire: ...Yeah.", author: "- Family Guy" },
+  { text: "<span style=\"color: #789922\">>he can't build a dipole for 2200 meters</span><br />not gonna make it" },
+  { text: "sus", author: "look guys i said the funny word, start laughing"},
+  { text: "\"I am proposing a bill that would make it illegal to talk to any Canadian\"", author: "- 7200 kHz"},
+  { text: "\"Actually I'm from Canada-\"<br /><em><strong>[Heavy laughter]</strong></em>", author: "- 7200 kHz"}, // two canada quotes are necessary because both are golden
+  { text: "4. The Spiritual Implications of Non-Associative Algebra" },
+  { text: "\"I have <em>several</em> questions.\"", author: "- Jonathan Jafari"},
+  { text: "\"Attention deficit disorder.\"<br /><em><strong>[EXTREMELY LOUD NOISE IMMEDIATELY FOLLOWS]</strong></em>", author: "- 3846 kHz"},
+  { text: "Nn", author: "- Multiple iterations of a no good very bad (cute) wolf"},
+  { text: "Shout out for N4S for being my first 1x1 QSO, you're the man"},
+  { text: "the j"},
 ];
 
 exports.handler = async (event, context) => {
