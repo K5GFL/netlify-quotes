@@ -69,7 +69,7 @@ const quotes = [
   { text: "Don't believe every quote you see on the internet is real.", author: "- Abraham Lincoln" },
   { text: "\"I cracked-up laughing at a French guy on the radio who said, passionately, \'Milk is for baby cows!'\"", author: "- Terry A. Davis (SK)" },
   { text: "\"What's reality? I don't know. When my bird was looking at my computer monitor I thought, 'That bird has no idea what he’s looking at.' And yet what does the bird do? Does he panic? No, he can't really panic, he just does the best he can. Is he able to live in a world where he's so ignorant? Well, he doesn't really have a choice. The bird is okay even though he doesn't understand the world. You're that bird looking at the monitor, and you're thinking to yourself, 'I can figure this out.' Maybe you have some bird ideas. Maybe that's the best you can do.\"", author: "- Terry A. Davis (SK)" },
-  { text: "Now in Technicolor!" },
+  { text: "<span style=\"color: #ff0000\">Now</span> <span style=\"color: #00ff00\">in</span> <span style=\"color: #0000ff\">Technicolor!</span>" },
   { text: "<em>YOU AIN'T FROM MICHIGAN IF YOU NEVER DONE THIS BEFO'</em><br /><strong><em>*blows up amplifier*</em></strong>" },
   { text: "This is the 69th quote of my quote list.<br />Nice" },
   { text: "CALLING CQ AT 3 AM CHALLENGE (DO NOT ATTEMPT!!) <span style=\"color: #d22b2b;\">O <---</span>" },
@@ -86,13 +86,23 @@ const quotes = [
   { text: "<span style=\"color: #789922\">>he can't build a dipole for 2200 meters</span><br />not gonna make it" },
   { text: "sus", author: "look guys i said the funny word, start laughing"},
   { text: "\"I am proposing a bill that would make it illegal to talk to any Canadian\"", author: "- 7200 kHz"},
-  { text: "\"Actually I'm from Canada-\"<br /><em><strong>[Heavy laughter]</strong></em>", author: "- 7200 kHz"}, // two canada quotes are necessary because both are golden
+  { text: "\"Actually I'm from Canada-\"<br /><em><strong>[Overwhelming amount of laughter]</strong></em>", author: "- 7200 kHz"}, // two canada quotes are necessary because both are golden
   { text: "4. The Spiritual Implications of Non-Associative Algebra" },
   { text: "\"I have <em>several</em> questions.\"", author: "- Jonathan Jafari"},
   { text: "\"Attention deficit disorder.\"<br /><em><strong>[EXTREMELY LOUD NOISE IMMEDIATELY FOLLOWS]</strong></em>", author: "- 3846 kHz"},
   { text: "Nn", author: "- Multiple iterations of a no good very bad (cute) wolf"},
   { text: "Shout out for N4S for being my first 1x1 QSO, you're the man"},
   { text: "the j"},
+  { text: "Welcome to Roger's [47 CFR § 97.113(a)(4)]ed repeater- neighborhood, won't you be my neighbor too?", author: "- WA6RXZ (SK)"},
+  { text: "Current RF burn count: like, 6"},
+  { text: "<strong>NOTE:</strong> Hamsticks are not edible and are unfit for human consumption. Please do not try embracing a copper diet."},
+  { text: "Did you remember to apply your antenna wax today for maximum gain?"},
+  { text: "Yo ho yo ho it's a pileup's life for me"},
+  { text: "Is it true that 80% of people on 80 meters drink 80 proof when on the air?"},
+  { text: "<em><strong>[Strange digital noise is transmitted]</strong></em><br />\"AT&T.\"", author: "- 3846 kHz"},
+  { text: "I hold no responsibility for whatever rabbit holes you fall down or interests you gain as a result of these quotes."},
+  { text: "Call my wire carbon dioxide because it loves to burn some clouds"},
+  { text: "Awaiting QSO retro-style, with smoke signals and messengers on horseback"},
 ];
 
 exports.handler = async (event, context) => {
@@ -113,7 +123,7 @@ exports.handler = async (event, context) => {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>K5GFL Real Quote Bro</title>
+    <title>K5GFL Real Quotes Bro</title>
     <style>
         body, html {
             margin: 0;
@@ -192,7 +202,7 @@ exports.handler = async (event, context) => {
     headers: {
       "Content-Type": "text/html",
       // You could add caching headers here if desired
-      // "Cache-Control": "no-cache" // Disable caching to get a new quote often
+      "Cache-Control": "no-cache" // Disable caching to get a new quote often
     },
     body: fullHtml,
   };
