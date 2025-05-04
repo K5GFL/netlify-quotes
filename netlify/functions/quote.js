@@ -67,7 +67,7 @@ const quotes = [
   { text: "[47 CFR § 97.113(a)(4)]IN' THING <em>SUCKS!</em>", author: "- Bill O'Reilly" },
   { text: "Old Man Yells At FT8" },
   { text: "I genuinely promise I didn't make this to farm the lookup counter" },
-  { text: "Don't believe every quote you see on the internet is real.", author: "- Abraham Lincoln" },
+  { text: "\"Don't believe every quote you see on the internet is real.\"", author: "- Abraham Lincoln" },
   { text: "\"I cracked-up laughing at a French guy on the radio who said, passionately, \'Milk is for baby cows!'\"", author: "- Terry A. Davis (SK)" },
   { text: "\"What's reality? I don't know. When my bird was looking at my computer monitor I thought, 'That bird has no idea what he’s looking at.' And yet what does the bird do? Does he panic? No, he can't really panic, he just does the best he can. Is he able to live in a world where he's so ignorant? Well, he doesn't really have a choice. The bird is okay even though he doesn't understand the world. You're that bird looking at the monitor, and you're thinking to yourself, 'I can figure this out.' Maybe you have some bird ideas. Maybe that's the best you can do.\"", author: "- Terry A. Davis (SK)" },
   { text: "<span style=\"color: #ff0000\">Now</span> <span style=\"color: #00ff00\">in</span> <span style=\"color: #0000ff\">Technicolor!</span>" },
@@ -105,7 +105,7 @@ const quotes = [
   { text: "Call my wire carbon dioxide because it loves to burn some clouds"},
   { text: "Awaiting QSO retro-style, with smoke signals and messengers on horseback"},
   { text: "I'm too lazy to write up a good quote right now, come back later"},
-  { text: "<strong>YOUR FORTUNE</strong>: Auspicious times are coming for your logbook"},
+  { text: "<strong>YOUR FORTUNE:</strong> Auspicious times are coming for your logbook"},
   { text: "Certified <a href=\"https://www.tailgatersnet.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Freewheeler</a>! (I don't have a setup that can actually go onto the net)"},
   { text: "\"You're a [47 CFR § 97.113(a)(4)] drunk and you're a [47 CFR § 97.113(a)(4)].\"<br />\"Woah! You can't call people a drunk!\"", author: "- 7200 kHz"},
   { text: "\"You guys are some of the worst amateur radio operators I've ever heard. I guess that's why I'm still here.\"", author: "- 7200 kHz"},
@@ -128,6 +128,13 @@ const quotes = [
   { text: "VVVVVVVVVVVVVVV"},
   { text: "CS D0RKS, CS D0RKS"},
   { text: "Please support Charlie WA5AIR's <a href=\"https://southcoastreflector.com/\ target=\"_blank\" rel=\"noopener noreferrer\">South Coast Reflector</a> repeater system I actually like it a lot"},
+  { text: "\"Sometimes, I dream about cheese...\"", author: "- Male 02"},
+  { text: "'feng 'fing 'fang 'fong"},
+  { text: "<strong>THE RFI IS</strong><br /><strong>TOO DANG HIGH</strong>"},
+  { text: "<strong>FUN FACT:</strong> The callsign \"<strong>K5GFL</strong>\" is currently <em>not</em> available." },
+  { text: "My body is QRV"},
+  { text: "<a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\" target=\"_blank\" rel=\"noopener noreferrer\">Guys, the ARRL just made a HUGE announcement!</a>"}, // I... I'm the boomer?
+  { text: "<strong>BRRRRRRRRTTT</strong><br /><strong>BRRRRRRRRTTT</strong><br /><strong>BRRRRRRRRTTT</strong>", author: "- 4625 kHz"},
 ];
 
 exports.handler = async (event, context) => {
@@ -154,22 +161,24 @@ exports.handler = async (event, context) => {
             margin: 0;
             padding: 0;
             height: 100%;
-            overflow: hidden;
+            /* overflow: hidden; */
             background-color: #000; /* Or transparent if you want QRZ bg */
             color: #fff;
             font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            /* display: flex; */
+            /* justify-content: center; */
+            /* align-items: center; */
+			display: block;
         }
 
         .quote-container {
-            display: flex; /* Keep flex for alignment */
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 300px; /* Match iframe width minus padding */
-            height: 150px; /* Match iframe height minus padding */
+            /* display: flex; */
+            /* flex-direction: column; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            width: 100%; /* formerly 300 px */
+			min-height: 100px;
+            /* height: 150px; */
             text-align: center;
             padding: 10px; /* Adjust padding as needed */
             border-radius: 5px;
