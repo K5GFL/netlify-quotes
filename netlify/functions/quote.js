@@ -7,7 +7,7 @@ const quotes = [
   { text: "<strong>Getting jammed?</strong> Just say no. Your jammer legally cannot transmit over you without mutual consent." },
   { text: "I don't know either." },
   { text: "It's not 'stalking', it's a one-way QSL" },
-  { text: "<span color=\"#ffd700\">Doxed Myself to Everybody Award</span>" },
+  { text: "<span style=\"color: #789922\">Doxed Myself to Everybody Award</span>" },
   { text: "<strong>DID YOU KNOW?:</strong> JavaScript was created by Satan to trick web devs into thinking they were learning a logical and reasonable programming language." },
   { text: ":3", author: "- Lenna" },
   { text: "I don't have Ovaltine<br />Please stop telling me to drink it" },
@@ -136,7 +136,7 @@ const quotes = [
   { text: "<a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\" target=\"_blank\" rel=\"noopener noreferrer\">Guys, the ARRL just made a HUGE announcement!</a>"}, // I... I'm the boomer?
   { text: "<strong>BRRRRRRRRTTT</strong><br /><strong>BRRRRRRRRTTT</strong><br /><strong>BRRRRRRRRTTT</strong>", author: "- 4625 kHz"},
   { text: "Never tell someone to shut up. That's rude. Instead, tell them to run their mouth on QRPP (or you'll do it for them)."},
-  { text: "<span color=\"#ffd700\">Doesn't Know How To Actually Code in CSS Award</span>"},
+  { text: "<span style=\"color: #789922\">Doesn't Know How To Actually Code in CSS Award</span>"},
   { text: "<strong>YOUR FORTUNE:</strong> Prepare an offering for Helios. You'll need it."},
 ];
 
