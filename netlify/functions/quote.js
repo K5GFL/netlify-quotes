@@ -7,7 +7,7 @@ const quotes = [
   { text: "<strong>Getting jammed?</strong> Just say no. Your jammer legally cannot transmit over you without mutual consent." },
   { text: "I don't know either." },
   { text: "It's not 'stalking', it's a one-way QSL" },
-  { text: "Doxed Myself to Everybody Award" },
+  { text: "<span color=\"#ffd700\">Doxed Myself to Everybody Award</span>" },
   { text: "<strong>DID YOU KNOW?:</strong> JavaScript was created by Satan to trick web devs into thinking they were learning a logical and reasonable programming language." },
   { text: ":3", author: "- Lenna" },
   { text: "I don't have Ovaltine<br />Please stop telling me to drink it" },
@@ -70,7 +70,7 @@ const quotes = [
   { text: "\"Don't believe every quote you see on the internet is real.\"", author: "- Abraham Lincoln" },
   { text: "\"I cracked-up laughing at a French guy on the radio who said, passionately, \'Milk is for baby cows!'\"", author: "- Terry A. Davis (SK)" },
   { text: "\"What's reality? I don't know. When my bird was looking at my computer monitor I thought, 'That bird has no idea what he’s looking at.' And yet what does the bird do? Does he panic? No, he can't really panic, he just does the best he can. Is he able to live in a world where he's so ignorant? Well, he doesn't really have a choice. The bird is okay even though he doesn't understand the world. You're that bird looking at the monitor, and you're thinking to yourself, 'I can figure this out.' Maybe you have some bird ideas. Maybe that's the best you can do.\"", author: "- Terry A. Davis (SK)" },
-  { text: "<span style=\"color: #ff0000\">Now</span> <span style=\"color: #00ff00\">in</span> <span style=\"color: #0000ff\">Technicolor!</span>" },
+  { text: "<span style=\"color: #ff140c\">Now</span> <span style=\"color: #00b200\">in</span> <span style=\"color: #424eff\">Technicolor!</span>" },
   { text: "<em>YOU AIN'T FROM MICHIGAN IF YOU NEVER DONE THIS BEFO'</em><br /><strong><em>*blows up amplifier*</em></strong>" },
   { text: "This is the 69th quote of my quote list.<br />Nice" },
   { text: "CALLING CQ AT 3 AM CHALLENGE (DO NOT ATTEMPT!!) <span style=\"color: #d22b2b;\">O <---</span>" },
@@ -135,6 +135,9 @@ const quotes = [
   { text: "My body is QRV"},
   { text: "<a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\" target=\"_blank\" rel=\"noopener noreferrer\">Guys, the ARRL just made a HUGE announcement!</a>"}, // I... I'm the boomer?
   { text: "<strong>BRRRRRRRRTTT</strong><br /><strong>BRRRRRRRRTTT</strong><br /><strong>BRRRRRRRRTTT</strong>", author: "- 4625 kHz"},
+  { text: "Never tell someone to shut up. That's rude. Instead, tell them to run their mouth on QRPP (or you'll do it for them)."},
+  { text: "<span color=\"#ffd700\">Doesn't Know How To Actually Code in CSS Award</span>"},
+  { text: "<strong>YOUR FORTUNE:</strong> Prepare an offering for Helios. You'll need it."},
 ];
 
 exports.handler = async (event, context) => {
@@ -161,28 +164,28 @@ exports.handler = async (event, context) => {
             margin: 0;
             padding: 0;
             height: 100%;
-            /* overflow: hidden; */
             background-color: #000; /* Or transparent if you want QRZ bg */
             color: #fff;
             font-family: Arial, sans-serif;
-            /* display: flex; */
-            /* justify-content: center; */
-            /* align-items: center; */
-			display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         .quote-container {
-            /* display: flex; */
-            /* flex-direction: column; */
-            /* justify-content: center; */
-            /* align-items: center; */
-            width: 100%; /* formerly 300 px */
-			min-height: 100px;
-            /* height: 150px; */
+            display: flex; /* Keep flex for alignment */
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 300px; /* Match iframe width minus padding */
+            height: 150px; /* Match iframe height minus padding */
             text-align: center;
             padding: 10px; /* Adjust padding as needed */
             border-radius: 5px;
             box-sizing: border-box; /* Include padding in dimensions */
+			/* Add overflow properties */
+			overflow-y: auto; /* Show vertical scrollbar ONLY when needed */
+            overflow-x: hidden; /* Prevent horizontal scrollbar */
         }
 
         .quote {
