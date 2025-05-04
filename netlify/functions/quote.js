@@ -167,9 +167,6 @@ exports.handler = async (event, context) => {
             background-color: #000; /* Or transparent if you want QRZ bg */
             color: #fff;
             font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
         }
 
         .quote-container {
@@ -177,8 +174,8 @@ exports.handler = async (event, context) => {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 300px; /* Match iframe width minus padding */
-            height: 150px; /* Match iframe height minus padding */
+            width: 100%; /* Match iframe width minus padding */
+            height: 100%; /* Match iframe height minus padding */
             text-align: center;
             padding: 10px; /* Adjust padding as needed */
             border-radius: 5px;
