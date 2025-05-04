@@ -93,7 +93,7 @@ const quotes = [
   { text: "Nn", author: "- Multiple iterations of a no good very bad (cute) wolf"},
   { text: "Shout out for N4S for being my first 1x1 QSO, you're the man"},
   { text: "the j"},
-  { text: "Welcome to Roger's [47 CFR § 97.113(a)(4)]ed repeater- neighborhood, won't you be my neighbor too?", author: "- WA6RXZ (SK)"},
+  { text: "Welcome to Roger's [47 CFR § 97.113(a)(4)] repeater- neighborhood, won't you be my neighbor too?", author: "- WA6RXZ (SK)"},
   { text: "Current RF burn count: like, 6"},
   { text: "<strong>NOTE:</strong> Hamsticks are not edible and are unfit for human consumption. Please do not try embracing a copper diet."},
   { text: "Did you remember to apply your antenna wax today for maximum gain?"},
@@ -103,6 +103,16 @@ const quotes = [
   { text: "I hold no responsibility for whatever rabbit holes you fall down or interests you gain as a result of these quotes."},
   { text: "Call my wire carbon dioxide because it loves to burn some clouds"},
   { text: "Awaiting QSO retro-style, with smoke signals and messengers on horseback"},
+  { text: "I'm too lazy to write up a good quote right now, come back later"},
+  { text: "<strong>YOUR FORTUNE</strong>: Auspicious times are coming for your logbook"},
+  { text: "Certified Freewheeler (who doesn't have a setup that can actually go onto the net)"},
+  { text: "\"You're a [47 CFR § 97.113(a)(4)] drunk and you're a [47 CFR § 97.113(a)(4)].\"<br />\"Woah! You can't call people a drunk!\"", author: "- 7200 kHz"},
+  { text: "\"You guys are some of the worst amateur radio operators I've ever heard. I guess that's why I'm still here.\"", author: "- 7200 kHz"},
+  { text: "Let's go hunting!<br /><em>pileup</em> aw dang it<br /><em>pileup</em> aw dang it<br /><em>pileup</em> aw dang it"},
+  { text: "[I] aM ALpharius Hydra dominatus. I drink red paint with my cerioes so do all my stuff faster each and every day. I win a lot and if not I use waggh and dakka. to remain hidden I wear a bright blue cloak I am the king. I monitor the chat rooms of sdrs. I am always watching", author: "- User \"......\", NA5B WebSDR chat"},
+  { text: "not enough shunt resistors? can't load balance?<br />try 50 amps<br />just 50 amps all on one wire<br />no sensing no safety margin<br /><span style=\"color: #2adeef\"><strong>just amps</strong></span><br />you will certainly not regret 50 amps", author: "- A meme (Please do not do whatever a random meme tells you to do)"},
+  { text: "\"K3FEF WAS ATTACKED BY AMISH FOR USING ELECTRONS AND PHOTONS -73 ITS QRV NOW\"", author: "- User \"Santa Rosa\", NA5B WebSDR chat"},
+  { text: "One does not simply setup a Digirig"},
 ];
 
 exports.handler = async (event, context) => {
