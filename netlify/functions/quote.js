@@ -7,7 +7,7 @@ const quotes = [
   { text: "<strong>Getting jammed?</strong> Just say no. Your jammer legally cannot transmit over you without mutual consent." },
   { text: "I don't know either." },
   { text: "It's not 'stalking', it's a one-way QSL" },
-  { text: "<span style=\"color: #789922\">Doxed Myself to Everybody Award</span>" },
+  { text: "<span style=\"color: #ffd700\">Doxed Myself to Everybody Award</span>" },
   { text: "<strong>DID YOU KNOW?:</strong> JavaScript was created by Satan to trick web devs into thinking they were learning a logical and reasonable programming language." },
   { text: ":3", author: "- Lenna" },
   { text: "I don't have Ovaltine<br />Please stop telling me to drink it" },
@@ -136,8 +136,23 @@ const quotes = [
   { text: "<a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\" target=\"_blank\" rel=\"noopener noreferrer\">Guys, the ARRL just made a HUGE announcement!</a>"}, // I... I'm the boomer?
   { text: "<strong>BRRRRRRRRTTT</strong><br /><strong>BRRRRRRRRTTT</strong><br /><strong>BRRRRRRRRTTT</strong>", author: "- 4625 kHz"},
   { text: "Never tell someone to shut up. That's rude. Instead, tell them to run their mouth on QRPP (or you'll do it for them)."},
-  { text: "<span style=\"color: #789922\">Doesn't Know How To Actually Code in CSS Award</span>"},
+  { text: "<span style=\"color: #ffd700\">Doesn't Know How To Actually Code in CSS Award</span>"},
   { text: "<strong>YOUR FORTUNE:</strong> Prepare an offering for Helios. You'll need it."},
+  { text: "Autistic nitpicking of my QRZ page is le good, actually"},
+  { text: "\"<em>NEEEEEEEEEEEERRRRRRRRRRRRRDDDDDDD!</em>\"", author: "- Homer Simpson"},
+  { text: "Forgetting to re-spot people on the POTA site after a QSO since 2025!<br />(Sorry.)"},
+  { text: "9"},
+  { text: "Zeroth Class CW Operator"},
+  { text: "belorted"},
+  { text: "AGN? AGN? AGN?"},
+  { text: "dead station lol"},
+  { text: "MULTI-BAND DRIFTING!"},
+  { text: "Yeah we have an \"Extra\" class license, but what about \"Extra Special\" licenses for extra special people?"},
+  { text: "Once upon a time I heard a ghost on FRS Channel 1, I'm not joking. I think it said \"I want to tickle your [47 CFR § 97.113(a)(4)]\", I really am not joking about this please have mercy on me, FRS 1 ghost"},
+  { text: "<a href=\"https://www.youtube.com/watch?v=sXz6ghbfd2U\"><strong><em>ＴＨＲＥＥ  ＮＩＮＥ  ＳＥＶＥＮ  ＯＮＥ  ＦＩＶＥ</em></strong></a>", author: "- 'The Lincolnshire Poacher'"},
+  { text: "A big thank you to W7EY for being my first contact on 80 meters!"},
+  { text: "A big thank you to W4ZDP for being my first contact on 40 meters! (POTA to US-0662)"},
+  { text: "I'd like to thank KC1VOP for being my first contact on HF (as KJ5KKT) and getting me addicted to POTA."},
 ];
 
 exports.handler = async (event, context) => {
