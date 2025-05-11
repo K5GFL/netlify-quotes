@@ -95,7 +95,7 @@ const quotes = [
   { text: "Shout out for N4S for being my first 1x1 QSO, you're the man"},
   { text: "the j"},
   { text: "Welcome to Roger's [47 CFR § 97.113(a)(4)] repeater- neighborhood, won't you be my neighbor too?", author: "- WA6RXZ (SK)"},
-  { text: "Current RF burn count: like, 6"},
+  { text: "Current RF burn count: like, 7"},
   { text: "<strong>NOTE:</strong> Hamsticks are not edible and are unfit for human consumption. Please do not try embracing a copper diet."},
   { text: "Did you remember to apply your antenna wax today for maximum gain?"},
   { text: "Yo ho yo ho it's a pileup's life for me"},
@@ -166,8 +166,18 @@ const quotes = [
   { text: "<span style=\"color: #b806d6\">ゴ ゴ ゴ ゴ ゴ ゴ ゴ</span>"},
   { text: "The RF Burn of '87?!", author: "- Not Markiplier"},
   { text: "Kilo Foxtrot Golf 5 Lima"},
-  { text: "More <span style=\"color: #ffd30a\">electric</span> than a Channel 6 rig!"},
+  { text: "More <strong><span style=\"color: #ffd30a\">electric</span></strong> than a Channel 6 rig!"},
   { text: "Ziz my beloved"},
+  { text: "Hleuþawarpaneutandz"},
+  { text: "<strong>FUN FACT:</strong> I took an N9TAX Slim Jim (made for VHF) and its 10' coax, hooked the end of the coax up to alligator clips and turned it into an indoor inverted-L in my room. It regularly hits Europe on 30 meters with WSPR at 5 watts. There's a lot of things you can turn into antennas with a G90!"},
+  { text: "<em>Oooooh, when it gets through for me, it's always new for me<br />My doublet 'tenna gets the best of me</em>"},
+  { text: "Bullying a ham:<br /><em>\"Stop CQing yourself! Stop CQing yourself! Stop CQing yourself!\""},
+  { text: "I want to have fun with an amateur TV station but the subhobby is near dead. This is so sad"},
+  { text: "Mastering incompetence..."},
+  { text: "\"Science isn't about WHY, it's about WHY NOT. Why is so much of our science dangerous? Why not marry safe science if you love it so much? In fact, why not invent a special safety door that won’t hit you on the butt on the way out, because you are fired.\"", author: "- Cave Johnson"},
+  { text: "\"I would never be so self-centered as to quote myself\"", author: "- K5GFL"},
+  { text: "\"Can't we all just get along?\"<br />\"<strong>No.</strong>\"", author: "- 7200 kHz"},
+  { text: "I'm not stopping until this whole house is made of ferrite"},
   
 ];
 
