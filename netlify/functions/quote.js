@@ -169,7 +169,7 @@ const quotes = [
   { text: "More <strong><span style=\"color: #ffd30a\">electric</span></strong> than a Channel 6 rig!"},
   { text: "Ziz my beloved"},
   { text: "Hleuþawarpaneutandz"},
-  { text: "<strong>FUN FACT:</strong> I took an N9TAX Slim Jim (made for VHF) and its 10' coax, hooked the end of the coax up to alligator clips and turned it into an indoor inverted-L in my room. It regularly hits Europe on 30 meters with WSPR at 5 watts. There's a lot of things you can turn into antennas with a G90!"},
+  { text: "<strong>FUN FACT:</strong> I took an N9TAX Slim Jim (made for VHF) and its 10' coax, hooked the end of the coax up to alligator clips and turned it into an indoor end-fed inverted-L in my room. It regularly does DX on FT8. There's a lot of things you can turn into antennas with a G90!"},
   { text: "<em>Oooooh, when it gets through for me, it's always new for me<br />My doublet 'tenna gets the best of me</em>"},
   { text: "Bullying a ham:<br /><em>\"Stop CQing yourself! Stop CQing yourself! Stop CQing yourself!\""},
   { text: "I want to have fun with an amateur TV station but the subhobby is near dead. This is so sad"},
@@ -208,6 +208,16 @@ const quotes = [
   { text: "You've got mail!"},
   { text: "The 100 Stations That Really, Really, Really, REALLY Want To Contact You!"},
   { text: "<em>*opens box containing crayons, a dead fish and a casette tape titled \"BOOTY JAMS\"*</em><br />\"I can make this work.\"", author: "- Jonathan Jafari"},
+  { text: "There are no brakes on the funposting train!"},
+  { text: "Coming Soon: The One Big Beautiful Bandplan"},
+  { text: "\"I hate computers! Why do they always blow up when I use them?!\"", author: "- Freeman's Mind"},
+  { text: "Forget your ninny lullabies, <em>real</em> men slumber to <strong><a href=\"https://www.youtube.com/watch?v=Gx4ohggE-FE\" target=\"_blank\" rel=\"noopener noreferrer\">Introduction to Natural Radio Emissions (Side 1)</a></strong>"},
+  { text: "THAT'S IT<br />99 YEARS, 99 YEARS IN THE FARADAY CAGE FOR YOU"},
+  { text: "Now with extra <a href=\"https://www.qrz.com/db/K5GFL/P\" target=\"_blank\" rel=\"noopener noreferrer\">/P</a>!"},
+  { text: "mobile mobile mobile mobile mobile mobile mobile"},
+  { text: "When will my loading coil finish loading, it's been days and I'm getting impatient"},
+  { text: "Quote", author: "- Author"},
+  { text: "A great big thank you to everyone who was a part of my first POTA activation: KF8ARN, KO4FAW, W6ZXY, AI7RK, KF4YHC, NK5J, KN9U, N1WHT, KC3OP, N3MK, WI1U, J78KM, KC5MJE and YS1MS. You all rock!"},
 ];
 
 exports.handler = async (event, context) => {
