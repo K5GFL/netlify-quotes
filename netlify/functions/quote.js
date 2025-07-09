@@ -218,6 +218,16 @@ const quotes = [
   { text: "When will my loading coil finish loading, it's been days and I'm getting impatient"},
   { text: "Quote", author: "- Author"},
   { text: "A great big thank you to everyone who was a part of my first POTA activation: KF8ARN, KO4FAW, W6ZXY, AI7RK, KF4YHC, NK5J, KN9U, N1WHT, KC3OP, N3MK, WI1U, J78KM, KC5MJE and YS1MS. You all rock!"},
+  { text: "<span style=\"color: #789922\">>his laptop isn't part of the antenna</span><br />Look at this dude!"},
+  { text: "<span style=\"color: #ffd700\">Forgot That Print Shops Trims Edges Of The Image Award</span>"},
+  { text: "\"Oh god the bugs\"", author: "- VE4JLG @ CA-0539"},
+  { text: "FST4-1800 POTA when?"},
+  { text: "\"DOES ''WD40'' DO QSL CARDS OR LOTW ? OR TIME IN ALIGATOR ALCATRAZ LOLOL 73\"", author: "- User \"ITCHY\", NA5B WebSDR chat"},
+  { text: "Of course you gotta look directly at the sun. How else would you check on the sunspots?"},
+  { text: "\"[47 CFR § 97.113(a)(4)] it, I ate the opp\"", author: "- Dracula"},
+  { text: "<strong>YOUR FORTUNE:</strong> Let's see here... oh dear. Oh um uh oh jeez oh no uh hang on oh no-"},
+  { text: "You too can watch my Sisphyean struggle with lighting by checking out my send/recieve ratio on WSPRnet."},
+  { text: "...Why is PSKReporter's favicon a fish?"},
 ];
 
 exports.handler = async (event, context) => {
