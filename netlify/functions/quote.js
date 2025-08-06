@@ -253,6 +253,21 @@ const quotes = [
   { text: "Trust me, I'm a radiokinography expert"},
   { text: "I think ham radio is a pretty cool guy. Eh <code>advances the radio arts</code> and doesn't afraid of anything."},
   { text: "🎵<em>My Flex rig brings all the hams to the yard<br />And they're like, it's better than yours<br />[47 CFR § 97.113(a)(4)] right, it's better than yours<br />I can swap you, but I'd have to charge</em>🎵", author: "(Man, I *wish* I had a Flex rig.)"},
+  { text: "Sorry for making you deaf, KE5DM!"},
+  { text: "You're not actually reading this, are you?"},
+  { text: "REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"},
+  { text: "We will not mention my third activation at US-4422."},
+  { text: "Go, white boy, go!"},
+  { text: "Mixed Digital"},
+  { text: "Florida should be its own DX entity"},
+  { text: "I'll be real chief, Meme Appreciation callsigns aren't very funny..."},
+  { text: "got gain?"},
+  { text: "<strong>NO CONTACTS?</strong>"},
+  { text: "I got 99 problems and no money is one"},
+  { text: "\"Oh my gah\"", author: "- Osaka"},
+  { text: "Unlimited Radio Works"},
+  { text: "\"I've DXed, but at what cost?\"", author: "- Me using FT8"},
+  { text: "Dreaming of 24U CubeSats..."},
 ];
 
 exports.handler = async (event, context) => {
