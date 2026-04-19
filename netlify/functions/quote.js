@@ -334,14 +334,14 @@ const quotes = [
   { text: "Breaker breaker one-nine"},
   { text: "<em>[Incredulous tone of voice]</em> \"...Are you playing Nickelback?\"", author: "- 7200 kHz"},
   { text: "WHO THE HELL DO YOU KNOW IN JAPAN?! <strong><em>NOBODY!</em></strong>", author: "- Master Shake"},
-  { text: "Smooth Operator"}
-  { text: "Look out for the K5GFL HF BBS, coming <em>never</em>"}
-  { text: "<span style=\"color: #f7adc7>TYBM</span>"}
-  { text: "<em>\"like a total dork!\"</em>", author: "- Krazy Klukai"}
-  { text: "<strong>WHAT IS THIS WHO DID THIS</strong>", author: "- Carl Brutananadilewski"}
-  { text: "\"OUT OF FUEL\"<br />\"SIPHON BOAT\"", author: "- Two FT8 funposters, 7090 kHz, 3Y0K DXpedition"}
-  { text: "Raifus 4 Laifus"}
-  { text: "Thank you for being my first SSTV QSO, WA1FUS, you're the man and a brother"}
+  { text: "Smooth Operator"},
+  { text: "Look out for the K5GFL HF BBS, coming <em>never</em>"},
+  { text: "<span style=\"color: #f7adc7>TYBM</span>"},
+  { text: "<em>\"like a total dork!\"</em>", author: "- Krazy Klukai"},
+  { text: "<strong>WHAT IS THIS WHO DID THIS</strong>", author: "- Carl Brutananadilewski"},
+  { text: "\"OUT OF FUEL\"<br />\"SIPHON BOAT\"", author: "- Two FT8 funposters, 7090 kHz, 3Y0K DXpedition"},
+  { text: "Raifus 4 Laifus"},
+  { text: "Thank you for being my first SSTV QSO, WA1FUS, you're the man and a brother"},
   { text: "Club Logged"}
 ];
 
