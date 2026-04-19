@@ -95,7 +95,7 @@ const quotes = [
   { text: "Shout out for N4S for being my first 1x1 QSO, you're the man"},
   { text: "the j"},
   { text: "Welcome to Roger's [47 CFR § 97.113(a)(4)] repeater- neighborhood, won't you be my neighbor too?", author: "- WA6RXZ (SK)"},
-  { text: "Current RF burn count: like, 12"},
+  { text: "Current RF burn count: like, 13"},
   { text: "<strong>NOTE:</strong> Hamsticks are not edible and are unfit for human consumption. Please do not try embracing a copper diet."},
   { text: "Did you remember to apply your antenna wax today for maximum gain?"},
   { text: "Yo ho yo ho it's a pileup's life for me"},
@@ -209,8 +209,8 @@ const quotes = [
   { text: "The 100 Stations That Really, Really, Really, REALLY Want To Contact You!"},
   { text: "<em>*opens box containing crayons, a dead fish and a casette tape titled \"BOOTY JAMS\"*</em><br />\"I can make this work.\"", author: "- Jonathan Jafari"},
   { text: "There are no brakes on the funposting train!"},
-  { text: "Coming Soon: The One Big Beautiful Bandplan"},
-  { text: "\"I hate computers! Why do they always blow up when I use them?!\"", author: "- Freeman's Mind"},
+  { text: "Coming <s>Soon</s> Never: The One Big Beautiful Bandplan"},
+  { text: "\"I hate computers! Why do they always blow up when I use them?!\"", author: "- Gordon Freeman, \"Freeman's Mind\""},
   { text: "Forget your ninny lullabies, <em>real</em> men slumber to <strong><a href=\"https://www.youtube.com/watch?v=Gx4ohggE-FE\" target=\"_blank\" rel=\"noopener noreferrer\">Introduction to Natural Radio Emissions (Side 1)</a></strong>"},
   { text: "THAT'S IT<br />99 YEARS, 99 YEARS IN THE FARADAY CAGE FOR YOU"},
   { text: "Now with extra <a href=\"https://www.qrz.com/db/K5GFL/P\" target=\"_blank\" rel=\"noopener noreferrer\">/P</a>!"},
@@ -252,7 +252,7 @@ const quotes = [
   { text: "RAAAAAAAAHHHH DIPOLES I KNEEL FOREVER"},
   { text: "Trust me, I'm a radiokinography expert"},
   { text: "I think ham radio is a pretty cool guy. Eh <code>advances the radio arts</code> and doesn't afraid of anything."},
-  { text: "🎵<em>My Flex rig brings all the hams to the yard<br />And they're like, it's better than yours<br />[47 CFR § 97.113(a)(4)] right, it's better than yours<br />I can swap you, but I'd have to charge</em>🎵", author: "(Man, I *wish* I had a Flex rig.)"},
+  { text: "🎵<em>My Flex rig brings all the hams to the yard<br />And they're like, it's better than yours<br />[47 CFR § 97.113(a)(4)] right, it's better than yours<br />I can swap you, but I'd have to charge</em>🎵", author: "(Man, I wish I had a Flex rig.)"},
   { text: "Sorry for making you deaf, KE5DM!"},
   { text: "You're not actually reading these quotes, are you?"},
   { text: "REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"},
@@ -268,7 +268,7 @@ const quotes = [
   { text: "Unlimited Radio Works"},
   { text: "\"I've DXed, but at what cost?\"", author: "- Me using FT8"},
   { text: "Dreaming of 27U CubeSats..."},
-  { text: "Now with more than 500 contacts with unfortunate souls in over 60 DX entities!"},
+  { text: "Now with more than 1000 contacts with unfortunate souls in over 70 DX entities!"},
   { text: "being opiretur is suffering", author: "- KYBY (not the -LP guys)"},
   { text: "\"I've got some real high-tech devices stuck in my earlobes\"", author: "- 7200 kHz"},
   { text: "\"I got a fetish and you got 10 submachine guns\"", author: "- 7200 kHz"},
@@ -306,13 +306,43 @@ const quotes = [
   { text: "gib latter line"},
   { text: "Stick out your EZNEC"},
   { text: "Current resistance of this page: 1Ω<br/>waow!"},
-  { text: "East of the Rockies, you're on the air"},
+  { text: "East of the Rockies, you're on the air."},
   { text: "I thought the amateur radio service would help straighten out my life, sir!"},
   { text: "I got that <code>Signature 18m Multi-Band Antenna Nebula Kit</code> in me"},
   { text: "<strong>YOUR FORTUNE:</strong> A mysterious stranger will ask for spare coax. Do not listen to him!"},
   { text: "All hail the Magic Conch"},
   { text: "\"There's the cow.\"", author: "- 7200 kHz"},
   { text: "mambo mambo omatsuri mambo (no. 5)"},
+  { text: "spring texas<br />it's even better in person<br />COME SEE THE HOUSE", author: "(Don't actually come to my house please, it's just a <a href=\"https://knowyourmeme.com/memes/its-even-better-in-person-come-see-the-building\" target=\"_blank\" rel=\"noopener noreferrer\">meme</a>)"},
+  { text: "Still haven't watched Star Trek"},
+  { text: "Welcome to Ham Radio home of the Ham Radio, can I take your order?"},
+  { text: "K5GFL, so (Amateur) Extra"},
+  { text: "\"Bunch of weirdos out here.\"", author: "- 7200 kHz"},
+  { text: "Gorushi."},
+  { text: "My wife Diesel..."},
+  { text: "-.... --..."},
+  { text: "I know the first three numbers", author: "- Death Grips, learning to count"},
+  { text: "Can anyone tell me why eQSL charges a whole fortune for a piece of paper"},
+  { text: "<span style=\"color: #ff0000;font-size: 300%;\">!</span>"},
+  { text: "Now officially HamAlerted!", author: "(See bottom of the page)"},
+  { text: "I'm not fat, my body just has a large bandwidth"},
+  { text: "(You)"},
+  { text: "Well on the way to Working All Spring"},
+  { text: "Officially a 21st Century Schizoid Man"},
+  { text: "Eternal thanks to N5BCA for my first top band contact! 160m FT8, bless"},
+  { text: "Ow, just tore my quadratures"},
+  { text: "Breaker breaker one-nine"},
+  { text: "<em>[Incredulous tone of voice]</em> \"...Are you playing Nickelback?\"", author: "- 7200 kHz"},
+  { text: "WHO THE HELL DO YOU KNOW IN JAPAN?! <strong><em>NOBODY!</em></strong>", author: "- Master Shake"},
+  { text: "Smooth Operator"}
+  { text: "Look out for the K5GFL HF BBS, coming <em>never</em>"}
+  { text: "<span style=\"color: #f7adc7>TYBM</span>"}
+  { text: "<em>\"like a total dork!\"</em>", author: "- Krazy Klukai"}
+  { text: "<strong>WHAT IS THIS WHO DID THIS</strong>", author: "- Carl Brutananadilewski"}
+  { text: "\"OUT OF FUEL\"<br />\"SIPHON BOAT\"", author: "- Two FT8 funposters, 7090 kHz, 3Y0K DXpedition"}
+  { text: "Raifus 4 Laifus"}
+  { text: "Thank you for being my first SSTV QSO, WA1FUS, you're the man and a brother"}
+  { text: "Club Logged"}
 ];
 
 exports.handler = async (event, context) => {
