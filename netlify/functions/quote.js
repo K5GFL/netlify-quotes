@@ -91,7 +91,7 @@ const quotes = [
   { text: "4. The Spiritual Implications of Non-Associative Algebra" },
   { text: "\"I have <em>several</em> questions.\"", author: "- Jonathan Jafari"},
   { text: "\"Attention deficit disorder.\"<br /><em><strong>[EXTREMELY LOUD NOISE IMMEDIATELY FOLLOWS]</strong></em>", author: "- 3846 kHz"},
-  { text: "Nn", author: "- Multiple iterations of a no good very bad (cute) wolf"},
+  { text: "\"ん\"", author: "- Multiple precious wolves"},
   { text: "Shout out for N4S for being my first 1x1 QSO, you're the man"},
   { text: "the j"},
   { text: "Welcome to Roger's [47 CFR § 97.113(a)(4)] repeater- neighborhood, won't you be my neighbor too?", author: "- WA6RXZ (SK)"},
@@ -277,7 +277,7 @@ const quotes = [
   { text: "\"We should sacrifice a virgin\"", author: "- 7200 kHz"},
   { text: "<strong>FUN FACT:</strong> I told people to email me for on my QRZ page and then didn't provide an email for more than a month.<br />Then Google banned my ham radio Gmail for no reason.<br />Oops!", author: "(Just use Proton at this point if you're too poor for an email server on a custom domain, like me: k5gfl@proton.me)"},
   { text: "RIP Art Bell (W6OBB)"},
-  { text: "\"Centipedes? In <em>my</em> amplifier?\"<br />It's more common than you think."},
+  { text: "\"Capacitors? In <em>my</em> amplifier?\"<br />It's more common than you think."},
   { text: "\"Just how it typically gets every [47 CFR § 97.113(a)(4)] week, EVERY [47 CFR § 97.113(a)(4)] WEEK. God I hate my [47 CFR § 97.113(a)(4)] job\"", author: "- Kurt Busch"},
   { text: "<em><strong>\"IS IT ONE TO GO YET?!\"</strong></em>", author: "- Kurt Busch"},
   { text: "It is so over"},
@@ -342,7 +342,17 @@ const quotes = [
   { text: "\"OUT OF FUEL\"<br />\"SIPHON BOAT\"", author: "- Two FT8 funposters, 7090 kHz, 3Y0K DXpedition"},
   { text: "Raifus 4 Laifus"},
   { text: "Thank you for being my first SSTV QSO, WA1FUS, you're the man and a brother"},
-  { text: "Club Logged"}
+  { text: "Club Logged"},
+  { text: "Mr. Pizza was going to be here, and also costs $50 for shipping. Mr. Pizza is not going to be here."},
+  { text: "Bless King Chong"},
+  { text: "Antenna: Just add water!"},
+  { text: "Are You Ready For The Cheyanne 360 No Scope Challenge??"},
+  { text: "Successfully accidentially entered a contest!"},
+  { text: "Have you ever wondered how radio physics work in despair-induced hell dimensions?"},
+  { text: "You cannot comprehend the true form of K5GFL's transmission!", author: "<span style=\"color: #ff0000\">103 HP of damage to SWL!"},
+  { text: "\"...Why are you setting up an airstrike beacon?\"", author: "- Unnamed friend, seeing a vertical whip"},
+  { text: "\"You literally cannot be any more autistic about this\"", author: "- Man about to find out how autistic I can be about this"},
+  { text: "馬鹿みたい 本当バカね", author: "- 桐生 一馬"}
 ];
 
 exports.handler = async (event, context) => {
