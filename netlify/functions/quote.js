@@ -356,7 +356,7 @@ const quotes = [
   { text: "\"From the high desert in the American Southwest, I bid you all good evening or good morning, wherever you are...\"", author: "- Art Bell (W6OBB, SK)"},
   { text: "\"...\"", author: "- Gordon Freeman"},
   { text: "\"Life has many doors, Ed boy\"", author: "- Rolf"},
-  { text: "\"They say science is built on the shoulders of giants. Not here. At Aperture, we do all our science from scratch. No hand holding.\"", author: "- Cave Johnson"}
+  { text: "\"They say science is built on the shoulders of giants. Not here. At Aperture, we do all our science from scratch. No hand holding.\"", author: "- Cave Johnson"},
   { text: "\"Bingoooo!\"", author: "- Lenna"}
 ];
 
