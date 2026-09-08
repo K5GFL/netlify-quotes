@@ -95,7 +95,7 @@ const quotes = [
   { text: "Shout out for N4S for being my first 1x1 QSO, you're the man"},
   { text: "the j"},
   { text: "Welcome to Roger's [47 CFR § 97.113(a)(4)] repeater- neighborhood, won't you be my neighbor too?", author: "- WA6RXZ (SK)"},
-  { text: "Current RF burn count: like, 13"},
+  { text: "Current RF burn count: like, 15"},
   { text: "<strong>NOTE:</strong> Hamsticks are not edible and are unfit for human consumption. Please do not try embracing a copper diet."},
   { text: "Did you remember to apply your antenna wax today for maximum gain?"},
   { text: "Yo ho yo ho it's a pileup's life for me"},
@@ -352,7 +352,12 @@ const quotes = [
   { text: "You cannot comprehend the true form of K5GFL's transmission!", author: "<span style=\"color: #ff0000\">103 HP of damage to SWL!"},
   { text: "\"...Why are you setting up an airstrike beacon?\"", author: "- Unnamed friend, seeing a vertical whip"},
   { text: "\"You literally cannot be any more autistic about this\"", author: "- Man about to find out how autistic I can be about this"},
-  { text: "馬鹿みたい 本当バカね", author: "- 桐生 一馬"}
+  { text: "馬鹿みたい 本当バカね", author: "- 桐生 一馬"},
+  { text: "\"From the high desert in the American Southwest, I bid you all good evening or good morning, wherever you are...\"", author: "- Art Bell (W6OBB, SK)"},
+  { text: "\"...\"", author: "- Gordon Freeman"},
+  { text: "\"Life has many doors, Ed boy\"", author: "- Rolf"},
+  { text: "\"They say science is built on the shoulders of giants. Not here. At Aperture, we do all our science from scratch. No hand holding.\"", author: "- Cave Johnson"}
+  { text: "\"Bingoooo!\"", author: "- Lenna"}
 ];
 
 exports.handler = async (event, context) => {
